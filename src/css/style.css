@@ -1,0 +1,69 @@
+/* coding : utf-8 */
+
+body {
+  background-image: url("/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: "点字倔强黑";
+  src: url(/font/点字倔强黑.ttf);
+}
+
+.number {
+  font-family: "点字倔强黑";
+  color: white;
+}
+
+#center-num {
+  position: absolute;
+  top: 34%;
+  /* left be defined in js */
+  font-size: 700%;
+}
+
+#up-right-num {
+  position: absolute;
+  /* top, left be defined in js */
+  font-size: 300%;
+}
+
+.btn-container {
+  position: absolute;
+  width: 630px;
+  top: 80%;
+  left: 50%;
+  margin-left: -315px;
+}
+
+.btn {
+  width: 200px;
+  font-family: "点字倔强黑";
+  color: white;
+  background: transparent;
+  border: 2px solid #2e4e7e;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #425066;
+  color: white;
+}
+
+#backBtn {
+  visibility: hidden;
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  width: 100px;
+  color: white;
+  border: none;
+}
