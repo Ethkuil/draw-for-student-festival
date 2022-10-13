@@ -6,6 +6,15 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+/* preloader */
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url("../images/firstSecondPrize/1.png") url("../images/firstSecondPrize/2.png") url("../images/firstSecondPrize/3.png") url("../images/firstSecondPrize/4.png") url("../images/firstSecondPrize/5.png") url("../images/firstSecondPrize/6.png") url("../images/firstSecondPrize/7.png") url("../images/firstSecondPrize/8.png") url("../images/firstSecondPrize/9.png") url("../images/firstSecondPrize/10.png") url("../images/firstSecondPrize/11.png") url("../images/firstSecondPrize/12.png") url("../images/firstSecondPrize/13.png") url("../images/firstSecondPrize/14.png") url("../images/firstSecondPrize/15.png") url("../images/firstSecondPrize/16.png") url("../images/firstSecondPrize/17.png") url("../images/firstSecondPrize/18.png") url("../images/firstSecondPrize/19.png") url("../images/firstSecondPrize/20.png") url("../images/firstSecondPrize/21.png") url("../images/firstSecondPrize/22.png") url("../images/thirdPrize/1.png") url("../images/thirdPrize/2.png") url("../images/thirdPrize/3.png") url("../images/thirdPrize/4.png") url("../images/thirdPrize/5.png") url("../images/thirdPrize/6.png") url("../images/thirdPrize/7.png") url("../images/thirdPrize/8.png") url("../images/thirdPrize/9.png") url("../images/thirdPrize/10.png") url("../images/thirdPrize/11.png") url("../images/thirdPrize/12.png") url("../images/thirdPrize/13.png") url("../images/thirdPrize/14.png") url("../images/thirdPrize/15.png") url("../images/thirdPrize/16.png") url("../images/thirdPrize/17.png") url("../images/thirdPrize/18.png") url("../images/thirdPrize/19.png") url("../images/thirdPrize/20.png") url("../images/thirdPrize/21.png") url("../images/thirdPrize/22.png")
+}
 
 @font-face {
   font-family: "点字倔强黑";
