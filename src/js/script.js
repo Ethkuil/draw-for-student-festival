@@ -34,7 +34,7 @@ const STYLE_OF_NUM = {
 // no blink and interval, just show the prize
 function debugFirstSecondPrize() {
   var keywordId = 1;
-  document.body.style.backgroundImage = "url(/images/firstSecondPrize/" + keywordId + ".png)";
+  document.body.style.backgroundImage = "url(./images/firstSecondPrize/" + keywordId + ".png)";
   // @ts-ignore
   document.getElementById("center-num").style.left = STYLE_OF_NUM[keywordId]["left-of-center"];
   // @ts-ignore
@@ -50,7 +50,7 @@ function drawThirdPrize() {
   setNumContent("");
   var timer = setInterval(function () {
     var keywordId = Math.floor(Math.random() * NUM_OF_KEYWORDS + 1); // 1 ~ NUM_OF_KEYWORDS
-    document.body.style.backgroundImage = "url(/images/thirdPrize/" + keywordId + ".png)";
+    document.body.style.backgroundImage = "url(./images/thirdPrize/" + keywordId + ".png)";
   }, BLINK_INTERVAL);
   setTimeout(function () {
     clearInterval(timer);
@@ -64,7 +64,7 @@ function drawFirstSecondPrize() {
   var keywordId;
   var timer = setInterval(function () {
     keywordId = Math.floor(Math.random() * NUM_OF_KEYWORDS + 1); // 1 ~ NUM_OF_KEYWORDS
-    document.body.style.backgroundImage = "url(/images/firstSecondPrize/" + keywordId + ".png)";
+    document.body.style.backgroundImage = "url(./images/firstSecondPrize/" + keywordId + ".png)";
   }, BLINK_INTERVAL);
   setTimeout(function () {
     clearInterval(timer); // stop drawing keyword
@@ -107,7 +107,7 @@ function back() {
   setNumContent("");
   // @ts-ignore
   document.getElementById("backBtn").style.visibility = "hidden"
-  document.body.style.backgroundImage = "url(/images/bg.png)"
+  document.body.style.backgroundImage = "url(./images/bg.png)"
   for (let i = 1; i <= 3; i++) {
     // @ts-ignore
     document.getElementById("btn" + i.toString()).style.visibility = "visible"

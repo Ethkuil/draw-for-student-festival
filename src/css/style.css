@@ -1,7 +1,7 @@
 /* coding : utf-8 */
 
 body {
-  background-image: url("/images/bg.png");
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
 
 @font-face {
   font-family: "点字倔强黑";
-  src: url(/font/点字倔强黑.ttf);
+  src: url(../font/点字倔强黑.ttf);
 }
 
 .number {
